@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def top
-    # topアクション
+  end
+  
+  def about
   end
 end
