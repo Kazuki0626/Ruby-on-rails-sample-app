@@ -1,9 +1,5 @@
 class PostsController < ApplicationController
   def index
-    @posts = [
-      "ああああああああああああああああああああああああああああ",
-      "いいいいいいいいいいいいいいいいいいいいいいいいいいいい",
-      "うううううううううううううううううううううううううううう"
-    ]
+    @posts = Post.all
   end
 end
