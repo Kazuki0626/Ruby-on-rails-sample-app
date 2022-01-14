@@ -12,11 +12,14 @@
   <body>
   <header>
     <div class="header-logo">
-      <a href="/">TweetApp</a>
+      <%= link_to("Tweet", "/") %>
     </div>
     <ul class="header-menus">
       <li>
-        <a href="/about">TweetAppとは</a>
+        <%= link_to("Tweetとは", "/about")
+      </li>
+      <li>
+        <% link_to("投稿一覧", "/posts/index")
       </li>
     </ul>
   </header>
