@@ -1,12 +1,18 @@
 
-<div class="parallax-bg img-bg-01"></div>
-<div class="parallax-bg img-bg-02"></div>
-<div class="parallax-bg img-bg-03"></div>
-<div class="parallax-bg img-bg-04"></div>
-<div class="parallax-bg img-bg-05"></div>
+  <div class="parallax-bg img-bg-01"></div>
+  <div class="parallax-bg img-bg-02"></div>
+  <div class="parallax-bg img-bg-03"></div>
+  <div class="parallax-bg img-bg-04"></div>
+  <div class="parallax-bg img-bg-05"></div>
 
-<div class="jal-about">
+<div class="jal-about" style="display: block;">
   <h1>日本航空</h1>
+  <p>日本航空株式会社は、東京都品川区に本社を置く日本の大手航空会社である</p>
+  <div class="jal-description" style="display: block;">
+    <div class="jal-logo" style="display: block; text-align: center;">
+      <img src="/jal-logo.png" style="width: 100%; height: 600px;">
+    </div>
+  </div>
 </div>
 
 <style>
@@ -48,5 +54,26 @@ div {
 }
 .img-bg-05 {
   background-image: url('https://www.jal.com/ja/img/Y21/top_05.jpg');
+}
+.jal-about {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  color: #000;
+}
+.jal-about h1 {
+  font-size: 56px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+}
+.jal-about p {
+  font-size: 36px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
 }
 </style>
