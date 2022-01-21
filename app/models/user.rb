@@ -3,4 +3,5 @@ class User < ApplicationRecord
   validates :email, {presence: true, uniqueness: true}
   def index
     @users = User.all
+  end
 end
